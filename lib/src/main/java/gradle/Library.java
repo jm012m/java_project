@@ -5,6 +5,7 @@ package gradle;
 
 public class Library {
     public boolean someLibraryMethod() {
+        System.out.println("Hello")
         return true;
     }
 }
